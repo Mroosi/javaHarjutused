@@ -19,5 +19,6 @@ package teema1;
 public class Harjutus1_tsyklid {
     public static void main(String[] args) {
 
+
     }
 }

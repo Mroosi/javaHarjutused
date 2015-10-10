@@ -1,5 +1,7 @@
 package teema1;
 
+import javafx.application.Application;
+import javafx.stage.Stage;
 import lib.Foor;
 
 /**
@@ -18,4 +20,22 @@ import lib.Foor;
  * Kliki punase teksti peale ja vajuta alt+enter.
  */
 public class Peamurdja1_foor {
+
+    public class Peamurdja1_Foor extends Application {
+
+        public void start(Stage primaryStage) throws Exception {
+            Foor foor = new Foor();
+            foor.vahetaPunast();
+            foor.paus(0.5);
+            foor.vahetaPunast();
+            foor.paus(0.5);
+            foor.vahetaKollast();
+            foor.paus(0.5);
+            foor.vahetaKollast();
+            foor.paus(0.5);
+            foor.vahetaKollast();
+            foor.paus(0.5);
+        }
+
+    }
 }
